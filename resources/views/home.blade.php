@@ -33,11 +33,11 @@
     <div class="">
 
         <header class="absolute  top-0 right-0 left-0 z-50">
-            <nav class=" bg-white flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <nav class=" bg-white  flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div class="flex lg:flex-1">
                     <a href="#" class="-m-1.5 p-1.5 flex">
-                        <span class="text-blue-400 text-lg">C</span>
-                        <span class="text-red-500 text-2xl">P</span>
+                        <span class="text-red-500 text-4xl">C</span>
+                        <span class="text-blue-400 text-lg">P</span>
                         <span class="text-blue-400 text-lg">M</span>
                         <svg width="48px" height="48px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -68,9 +68,35 @@
                     <a href="#" class="text-sm/6 font-semibold text-gray-900">Product</a>
 
                 </div>
+
                 <div class=" lg:flex lg:flex-1 justify-end space-x-8">
-                    <a href="/login" class="text-sm/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-                    <a href="/register" class="text-sm/6 font-semibold text-gray-900">Register <span aria-hidden="true">&rarr;</span></a>
+
+                    @if (Route::has('login'))
+                    <nav class="-mx-3 flex flex-1 justify-end">
+                        @auth
+                        <a
+                            href="{{ url('/dashboard') }}"
+                            >
+                            Dashboard
+                        </a>
+                        @else
+                        <a
+                            href="{{ route('login') }}"
+                            class="mr-6">
+                            Log in
+                        </a>
+
+                        @if (Route::has('register'))
+                        <a
+                            href="{{ route('register') }}"
+                            >
+                            Register
+
+                        </a>
+                        @endif
+                        @endauth
+                    </nav>
+                    @endif
                 </div>
 
             </nav>
@@ -82,15 +108,15 @@
 
             <div class="flex flex-col justify-center  mx-auto max-w-2xl min-h-screen">
                 <!-- <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-                            <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                                Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
-                            </div>
-                        </div> -->
+                                    <div class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                                        Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+                                    </div>
+                                </div> -->
                 <div class="text-center">
                     <h1 class="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">Projects Running in the county</h1>
                     <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Listed are various projects that are active in various places across the county. view and give feedback on projects you are intrested in </p>
                     <div class="mt-10 flex items-center justify-center gap-x-6">
-                        <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a> -->
+                        <!-- <a href="#" class="bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a> -->
                         <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
                     </div>
                 </div>
@@ -103,7 +129,7 @@
     <div class="min:h-[420px] bg-green-50 py-14">
         <div class=" flex flex-col justify-center items-center ">
             <h1 class="text-4xl font-bold mb-8">Our recent projects</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolorum.</p>
+            <p>Below are some of the projects undergoing in the county.</p>
         </div>
 
 
@@ -111,24 +137,36 @@
             <div class="flex flex-col ">
                 <div class="h-48"><img class="h-48 w-96 object-cover" src="https://cdn.pixabay.com/photo/2018/09/07/15/55/hamburg-3660954_960_720.jpg" alt=""></div>
                 <div class="mt-4 ">
-                   <h2 class="text-xl font-semibold text-blue-500 "> Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                    <h2 class="text-xl font-semibold text-blue-500 "> COUNTY HEADQUATER DEVELOPMENT</h2>
+
                     <br>
-                   <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, numquam animi. Sed exercitationem odit dolores?</p>
+                    <p class="">Giving our county headquaters a new face,by renovating the buildings and improving the infrustructure around it.</p>
+                    <a href="#" class="text-sm/6 font-semibold text-gray-900">Read more <span aria-hidden="true">→</span></a>
                 </div>
             </div>
-            <div class="h-48 bg-green-500"></div>
-            <div class="h-48 bg-green-500"></div>
-        </div>
-
-        <div class="text-center w-full mt-8">
-          
-            <a href="#" class="text-2xl font-semibold text-gray-900">View more <span aria-hidden="true">&rarr;</span></a>
+            <div class="flex flex-col ">
+                <div class="h-48"><img class="h-48 w-96 object-cover" src="https://cdn.pixabay.com/photo/2016/07/17/14/48/castle-park-1523914_1280.jpg" alt=""></div>
+                <div class="mt-4 ">
+                    <h2 class="text-xl font-semibold text-blue-500 ">WATER SUPPLY PROJECT.</h2>
+                    <br>
+                    <p class="">The project aims at ensuring that all wards in the county have access to clean and safe water for use.</p>
+                    <a href="#" class="text-sm/6 font-semibold text-gray-900">Read more <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="h-48"><img class="h-48 w-96 object-cover" src="{{ asset('storage/project/road.jpg') }}" alt=""></div>
+                <div class="mt-4 ">
+                    <h2 class="text-xl font-semibold text-blue-500 "> ROAD DEVELOPMENT PROJECT.</h2>
+                    <br>
+                    <p class="">Reparing damaged roads, and installing new tarmac roads across the county for easy movement and interconnecting towns.</p>
+                    <a href="#" class="text-sm/6 font-semibold text-gray-900">Read more <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+            <div class="text-center w-full mt-8">
+                <a href="#" class="text-2xl font-semibold text-gray-900">View more <span aria-hidden="true">&rarr;</span></a>
+            </div>
         </div>
     </div>
-</main>
+</main
 
-
-
-</body>
-
-</html>
+    </html>
