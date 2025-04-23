@@ -39,35 +39,11 @@
                         <span class="text-red-500 text-4xl">C</span>
                         <span class="text-blue-400 text-lg">P</span>
                         <span class="text-blue-400 text-lg">M</span>
-                        <svg width="48px" height="48px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <path d="M153.9 105.9h715.4v812.8H153.9z" fill="#55B7A8"></path>
-                                <path d="M877.3 926.8H145.9V97.9h731.4v828.9z m-715.4-16h699.4V113.9H161.9v796.9z" fill="#0A0408"></path>
-                                <path d="M221.3 182.9h580.5v658.8H221.3z" fill="#FFFFFF"></path>
-                                <path d="M793.8 833.8h16v16h-16zM777.7 849.8h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0H568v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0H439v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0H310v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16zM213.3 833.8h16v16h-16zM229.3 818.1h-16v-15.7h16v15.7z m0-31.4h-16V771h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16V724z m0-31.3h-16V677h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16V332h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16V285z m0-31.4h-16V238h16v15.6z m0-31.3h-16v-15.7h16v15.7zM213.3 174.9h16v16h-16zM777.7 190.9h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0H568v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0H439v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16z m-32.3 0H310v-16h16.1v16z m-32.3 0h-16.1v-16h16.1v16z m-32.2 0h-16.1v-16h16.1v16zM793.8 174.9h16v16h-16zM809.8 818.1h-16v-15.7h16v15.7z m0-31.4h-16V771h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16V724z m0-31.3h-16V677h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16V332h16v15.7z m0-31.3h-16v-15.7h16v15.7z m0-31.4h-16v-15.7h16V285z m0-31.4h-16V238h16v15.6z m0-31.3h-16v-15.7h16v15.7z" fill="#0A0408"></path>
-                                <path d="M364.5 306.6m-44.8 0a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0-89.6 0Z" fill="#DC444A"></path>
-                                <path d="M364.5 359.4c-29.1 0-52.8-23.7-52.8-52.8s23.7-52.8 52.8-52.8 52.8 23.7 52.8 52.8-23.7 52.8-52.8 52.8z m0-89.6c-20.3 0-36.8 16.5-36.8 36.8s16.5 36.8 36.8 36.8 36.8-16.5 36.8-36.8-16.5-36.8-36.8-36.8zM459.3 262.6h144.1v16H459.3zM459.3 332.2h244.1v16H459.3z" fill="#0A0408"></path>
-                                <path d="M364.5 516.3m-44.8 0a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0-89.6 0Z" fill="#DC444A"></path>
-                                <path d="M364.5 569.1c-29.1 0-52.8-23.7-52.8-52.8s23.7-52.8 52.8-52.8 52.8 23.7 52.8 52.8-23.7 52.8-52.8 52.8z m0-89.6c-20.3 0-36.8 16.5-36.8 36.8 0 20.3 16.5 36.8 36.8 36.8s36.8-16.5 36.8-36.8c0-20.3-16.5-36.8-36.8-36.8zM459.3 472.3h144.1v16H459.3zM459.3 541.9h244.1v16H459.3z" fill="#0A0408"></path>
-                                <path d="M364.5 726m-44.8 0a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0-89.6 0Z" fill="#DC444A"></path>
-                                <path d="M364.5 778.8c-29.1 0-52.8-23.7-52.8-52.8s23.7-52.8 52.8-52.8 52.8 23.7 52.8 52.8-23.7 52.8-52.8 52.8z m0-89.6c-20.3 0-36.8 16.5-36.8 36.8 0 20.3 16.5 36.8 36.8 36.8s36.8-16.5 36.8-36.8c0-20.3-16.5-36.8-36.8-36.8zM459.3 682h144.1v16H459.3zM459.3 751.6h244.1v16H459.3z" fill="#0A0408"></path>
-                                <path d="M359 72.4h305.2v75.9H359z" fill="#EBB866"></path>
-                                <path d="M672.2 156.2H351V64.4h321.2v91.8z m-305.2-16h289.2V80.4H367v59.8z" fill="#0A0408"></path>
-                                <path d="M808.3 807.9m-141.7 0a141.7 141.7 0 1 0 283.4 0 141.7 141.7 0 1 0-283.4 0Z" fill="#EBB866"></path>
-                                <path d="M808.3 957.6c-82.5 0-149.7-67.1-149.7-149.7s67.1-149.7 149.7-149.7S958 725.4 958 807.9s-67.2 149.7-149.7 149.7z m0-283.4c-73.7 0-133.7 60-133.7 133.7s60 133.7 133.7 133.7S942 881.6 942 807.9s-60-133.7-133.7-133.7z" fill="#0A0408"></path>
-                                <path d="M810.3 727.1l26 52.5 58 8.5-42 40.9 9.9 57.8-51.9-27.3-51.9 27.3 9.9-57.8-41.9-40.9 58-8.5z" fill="#FFFFFF"></path>
-                                <path d="M872.8 901.4l-62.5-32.9-62.5 32.9 11.9-69.6-50.6-49.3 69.9-10.2 31.3-63.3 31.3 63.3 69.9 10.2-50.6 49.3 11.9 69.6z m-62.5-51l41.3 21.7-7.9-45.9 33.4-32.5L831 787l-20.6-41.8-20.7 41.8-46.1 6.7 33.4 32.5-7.9 45.9 41.2-21.7z" fill="#0A0408"></path>
-                            </g>
-                        </svg>
+                        <img src="{{asset('office-svgrepo-com.svg')}}" class="h-10 w-10" alt="">
                     </a>
                 </div>
 
-                <div class="lg:flex lg:gap-x-12">
-                    <a href="#" class="text-sm/6 font-semibold text-gray-900">Product</a>
 
-                </div>
 
                 <div class=" lg:flex lg:flex-1 justify-end space-x-8">
 
@@ -75,8 +51,7 @@
                     <nav class="-mx-3 flex flex-1 justify-end">
                         @auth
                         <a
-                            href="{{ url('/dashboard') }}"
-                            >
+                            href="{{ url('/projects') }}">
                             Dashboard
                         </a>
                         @else
@@ -86,14 +61,13 @@
                             Log in
                         </a>
 
-                        @if (Route::has('register'))
+                        <!-- @if (Route::has('register'))
                         <a
-                            href="{{ route('register') }}"
-                            >
+                            href="{{ route('register') }}">
                             Register
 
                         </a>
-                        @endif
+                        @endif -->
                         @endauth
                     </nav>
                     @endif
@@ -103,7 +77,7 @@
 
         </header>
 
-        <div class=" bg-red-200 relative isolate px-6 pt-14 lg:px-8">
+        <div class=" bg-blue-200 relative isolate px-6 pt-14 lg:px-8">
 
 
             <div class="flex flex-col justify-center  mx-auto max-w-2xl min-h-screen">
@@ -125,48 +99,42 @@
 
         </div>
     </div>
-    <!-- projects listing -->
+    <!-- Projects Listing -->
     <div class="min:h-[420px] bg-green-50 py-14">
-        <div class=" flex flex-col justify-center items-center ">
-            <h1 class="text-4xl font-bold mb-8">Our recent projects</h1>
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-4xl font-bold mb-8">Our Recent Projects</h1>
             <p>Below are some of the projects undergoing in the county.</p>
         </div>
 
-
-        <div class="grid grid-cols-3 gap-4 max-w-6xl mx-auto mt-8 ">
-            <div class="flex flex-col ">
-                <div class="h-48"><img class="h-48 w-96 object-cover" src="https://cdn.pixabay.com/photo/2018/09/07/15/55/hamburg-3660954_960_720.jpg" alt=""></div>
-                <div class="mt-4 ">
-                    <h2 class="text-xl font-semibold text-blue-500 "> COUNTY HEADQUATER DEVELOPMENT</h2>
-
-                    <br>
-                    <p class="">Giving our county headquaters a new face,by renovating the buildings and improving the infrustructure around it.</p>
-                    <a href="#" class="text-sm/6 font-semibold text-gray-900">Read more <span aria-hidden="true">→</span></a>
-                </div>
-            </div>
-            <div class="flex flex-col ">
-                <div class="h-48"><img class="h-48 w-96 object-cover" src="https://cdn.pixabay.com/photo/2016/07/17/14/48/castle-park-1523914_1280.jpg" alt=""></div>
-                <div class="mt-4 ">
-                    <h2 class="text-xl font-semibold text-blue-500 ">WATER SUPPLY PROJECT.</h2>
-                    <br>
-                    <p class="">The project aims at ensuring that all wards in the county have access to clean and safe water for use.</p>
-                    <a href="#" class="text-sm/6 font-semibold text-gray-900">Read more <span aria-hidden="true">→</span></a>
-                </div>
-            </div>
+        <div class="grid grid-cols-3 gap-4 max-w-6xl mx-auto mt-8">
+            @foreach ($projects as $project)
             <div class="flex flex-col">
-                <div class="h-48"><img class="h-48 w-96 object-cover" src="{{ asset('storage/project/road.jpg') }}" alt=""></div>
-                <div class="mt-4 ">
-                    <h2 class="text-xl font-semibold text-blue-500 "> ROAD DEVELOPMENT PROJECT.</h2>
+                <div class="h-48">
+                    <img class="h-48 w-96 object-cover" src="{{ asset('storage/' . $project->project_image) }}" alt="{{ $project->project_title }}">
+                </div>
+
+                <div class="my-6">
+                    <label class="text-sm font-medium text-gray-700">Project Progress</label>
+                    <div class="w-full bg-gray-200 rounded-full h-4 mt-1">
+                        <div class="bg-green-500 h-4 rounded-full" style="width: {{ $project->progress }}%"></div>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">{{ $project->progress }}% Complete</p>
+                </div>
+                
+                <div class="mt-4">
+                    <h2 class="text-xl font-semibold text-blue-500">{{ $project->project_title }}</h2>
                     <br>
-                    <p class="">Reparing damaged roads, and installing new tarmac roads across the county for easy movement and interconnecting towns.</p>
-                    <a href="#" class="text-sm/6 font-semibold text-gray-900">Read more <span aria-hidden="true">→</span></a>
+                    <p>{{ Str::limit($project->project_details, 150) }}</p>
+                    <a href="{{ route('projects.show', $project->id) }}" class="text-sm/6 font-semibold text-gray-900">
+                        Read more <span aria-hidden="true">→</span>
+                    </a>
                 </div>
             </div>
-            <div class="text-center w-full mt-8">
-                <a href="#" class="text-2xl font-semibold text-gray-900">View more <span aria-hidden="true">&rarr;</span></a>
-            </div>
+            @endforeach
         </div>
-    </div>
-</main
 
+
+    </div>
+
+</main
     </html>

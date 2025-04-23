@@ -5,17 +5,28 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="/dashboard">
-                        <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
+                    <a href="/projects">
+                        <img src="{{asset('office-svgrepo-com.svg')}}" class="h-10 w-10" alt="">
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class=" ms-3 flex justify-center items-center">
-                    <a href="/dashboard" class="">
-                        Dashboard
+                    <a href="/projects" class="">
+                        Projects
                     </a>
                 </div>
+                <div class=" ms-3 flex justify-center items-center">
+                    <a href="/projects/create" class="">
+                       New Projects
+                    </a>
+                </div>
+                <div class=" ms-3 flex justify-center items-center">
+                    <a href="/register" class="">
+                       New User
+                    </a>
+                </div>
+
             </div>
 
             <!-- Settings Dropdown -->

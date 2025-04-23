@@ -8,4 +8,8 @@ class Project extends Model
 {
     // protected $fillable = ['project_title', 'project_image','project_details'];
     protected $guarded = [""];
+
+    protected $casts = [
+        'comments' => 'array',
+    ];
 }

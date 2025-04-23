@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('project_title');
             $table->string('project_image');
             $table->longText('project_details');
+            $table->unsignedTinyInteger('progress')->default(0);
+            $table->json('comments')->nullable();
             $table->timestamps();
         });
     }
